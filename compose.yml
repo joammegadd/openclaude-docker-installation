@@ -1,0 +1,17 @@
+services:
+  openclaude:
+    build: .
+    container_name: openclaude-cli
+    user: root
+    stdin_open: true
+    tty: true
+    working_dir: /workspace
+    volumes:
+      - ./workspace:/workspace
+      - codex_config:/root/.codex
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CLAUDE_CODE_USE_OPENAI=1
+      - OPENAI_MODEL=codexplan
+volumes:
+  codex_config:
