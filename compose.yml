@@ -10,8 +10,26 @@ services:
       - ./workspace:/workspace
       - codex_config:/root/.codex
     environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_API_KEY=ollama
       - CLAUDE_CODE_USE_OPENAI=1
-      - OPENAI_MODEL=codexplan
+      - OPENAI_MODEL=qwen2.5:7b
+      - OPENAI_BASE_URL=http://ollama:11434/v1
+    networks:
+      - openclaude-network
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: openclaude-ollama
+    restart: unless-stopped
+    gpus: all
+    ports:
+      - "11434:11434"
+    volumes:
+      -  ${OLLAMA_CONFIG_DIR:-~/.ollama}:/root/.ollama
+    networks:
+      - openclaude-network
 volumes:
   codex_config:
+networks:
+  openclaude-network:
+    driver: bridge
