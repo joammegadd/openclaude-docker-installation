@@ -1,0 +1,157 @@
+Quero que você atue como um desenvolvedor front-end sênior e crie um mini sistema administrativo web completo, com múltiplas páginas reais e navegação funcional, usando apenas HTML, CSS e JavaScript puro.
+
+Objetivo do projeto:
+Construir um dashboard administrativo com aparência profissional, contendo navegação real entre páginas, layout consistente, dados mockados plausíveis e estrutura organizada como uma aplicação interna real.
+
+Contexto:
+Este projeto será usado para avaliar sua capacidade de:
+- planejar um sistema front-end com múltiplas páginas
+- criar navegação real
+- manter consistência visual entre telas
+- estruturar arquivos corretamente
+- implementar comportamento funcional
+- ir além de uma landing page disfarçada de dashboard
+
+Tecnologias obrigatórias:
+- HTML
+- CSS
+- JavaScript puro
+- Sem frameworks
+- Sem bibliotecas externas
+
+Arquitetura obrigatória:
+Quero um projeto multipágina real.
+Não quero apenas um index.html com menu visual falso.
+As páginas devem existir de fato e a navegação entre elas deve funcionar.
+
+Estrutura mínima obrigatória:
+- index.html
+- analytics.html
+- orders.html
+- customers.html
+- settings.html
+- styles.css
+- script.js
+
+Você pode criar mais arquivos se achar necessário, mas no mínimo esses devem existir.
+
+Tema do sistema:
+O sistema deve simular um painel administrativo de uma empresa fictícia digital, como e-commerce, SaaS ou plataforma de serviços.
+
+Requisitos globais do sistema:
+- Header consistente
+- Sidebar consistente
+- Navegação real entre páginas
+- Destaque visual da página ativa no menu
+- Layout profissional
+- Visual moderno
+- Responsivo
+- Dados mockados plausíveis
+- Estrutura coerente entre páginas
+
+Requisitos de navegação:
+1. A sidebar precisa conter links reais para as páginas criadas
+2. A navegação deve funcionar abrindo cada tela correspondente
+3. O item ativo da navegação precisa ficar destacado conforme a página atual
+4. O layout deve permanecer consistente em todas as páginas
+5. Se houver menu mobile, ele também deve funcionar
+
+Páginas obrigatórias e seus conteúdos:
+
+1. index.html — visão geral / dashboard principal
+Essa página deve conter:
+- resumo geral do sistema
+- cards principais com métricas
+- gráfico simples sem bibliotecas externas
+- tabela resumida de atividade recente
+- bloco de insights
+- atalhos para outras áreas do sistema
+
+2. analytics.html — página de analytics detalhado
+Essa página deve conter:
+- filtros por período
+- métricas detalhadas
+- gráfico principal
+- blocos comparativos
+- insights baseados em dados
+- visual mais analítico que o dashboard inicial
+
+3. orders.html — página de pedidos
+Essa página deve conter:
+- tabela de pedidos
+- status dos pedidos
+- data
+- cliente
+- valor
+- filtro visual simples ou busca simulada
+- paginação simples opcional ou ao menos organização convincente
+
+4. customers.html — página de clientes
+Essa página deve conter:
+- lista ou tabela de clientes
+- nome
+- email
+- plano, status ou quantidade de pedidos
+- cards de resumo
+- bloco lateral ou seção com estatísticas de clientes
+
+5. settings.html — página de configurações
+Essa página deve conter:
+- formulário visual de configurações
+- campos como nome da empresa, email administrativo, notificações, tema visual ou preferências
+- botões de salvar
+- interações simples em JavaScript
+- aparência realista de tela administrativa
+
+Requisitos de comportamento:
+- A navegação entre páginas deve funcionar corretamente
+- O menu ativo deve refletir a página atual
+- Filtros na página analytics devem alterar os dados exibidos
+- Elementos interativos, como botões e menus, devem ter feedback visual
+- Formulários da página settings devem ter alguma interação básica
+- Se usar dados mockados, organize-os claramente no JavaScript
+
+Requisitos visuais:
+- Interface limpa e profissional
+- Cards bem estilizados
+- Sidebar consistente
+- Tabelas bem desenhadas
+- Hierarquia tipográfica clara
+- Espaçamento consistente
+- Visual de sistema real
+- Evitar aparência genérica ou simplista demais
+
+Requisitos técnicos:
+- Reaproveitar estrutura visual entre páginas
+- Manter HTML organizado e semântico
+- CSS organizado por blocos e componentes
+- JavaScript limpo e legível
+- Nomes de classes e funções claros
+- Não concentrar toda a lógica em um bloco confuso
+- Garantir consistência visual entre todas as páginas
+
+Requisitos de qualidade:
+- Não quero apenas placeholders sem sentido
+- Não quero um menu que aponta para páginas inexistentes
+- Não quero uma única página fingindo ser várias
+- Quero páginas reais com conteúdo coerente
+- Quero navegação funcionando de verdade
+- Quero um mini sistema que pareça apresentável
+
+Fluxo de execução esperado:
+1. Primeiro, descreva rapidamente a arquitetura do projeto e a função de cada página
+2. Depois, crie todos os arquivos necessários
+3. Implemente o layout compartilhado e a navegação real
+4. Crie o conteúdo específico de cada página
+5. Implemente as interações em JavaScript
+6. Revise se todos os links estão corretos
+7. Verifique se todas as páginas existem e se a navegação funciona
+8. Faça uma checagem final resumindo o que foi criado
+
+Importante:
+- Não responda apenas com explicação
+- Trabalhe diretamente nos arquivos do workspace
+- Crie todas as páginas de fato
+- Garanta que a navegação esteja funcional
+- Corrija inconsistências antes de encerrar
+- O resultado precisa parecer um sistema real, não apenas um mock superficial
