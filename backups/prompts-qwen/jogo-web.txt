@@ -1,0 +1,145 @@
+Quero que você atue como um desenvolvedor de jogos web experiente e crie um jogo de navegador visualmente chamativo, divertido e com potencial de impressionar em vídeo.
+
+Objetivo do projeto:
+Construir um jogo web completo, estiloso e funcional, usando apenas HTML, CSS e JavaScript puro, com uma estética forte e gameplay que pareça viciante e interessante visualmente.
+
+Contexto:
+Este projeto será usado para avaliar sua capacidade de:
+- planejar um jogo completo
+- criar múltiplos arquivos
+- implementar lógica interativa real
+- organizar estado e fluxo do jogo
+- criar feedback visual forte
+- entregar algo que não pareça apenas um protótipo simples
+
+Direção criativa obrigatória:
+Quero um jogo com estética mais marcante e “viralizável”, com aparência moderna e impacto visual.
+A proposta ideal é algo no estilo:
+- neon arcade
+- cyberpunk casual
+- reflexos rápidos
+- survival com efeitos visuais
+- gameplay simples de entender, mas interessante de assistir
+
+Sugestão principal de conceito:
+Crie um jogo chamado provisoriamente de “Neon Escape”, “Cyber Dash”, “Void Runner” ou outro nome semelhante.
+O jogador controla um núcleo, nave, esfera, bloco futurista ou personagem abstrato dentro de uma arena.
+Obstáculos, inimigos, lasers, zonas de perigo ou elementos hostis surgem progressivamente.
+O objetivo é sobreviver o máximo possível, acumular pontos e manter combos.
+
+Tecnologias obrigatórias:
+- HTML
+- CSS
+- JavaScript puro
+- Sem frameworks
+- Sem bibliotecas externas
+- Sem engines de jogo
+
+Estrutura obrigatória de arquivos:
+- index.html
+- styles.css
+- script.js
+
+Requisitos obrigatórios de gameplay:
+1. Tela inicial chamativa
+   - Nome do jogo
+   - Subtítulo curto
+   - Botão de iniciar
+   - Pequena descrição das regras
+   - Visual forte já na entrada
+
+2. Loop principal realmente jogável
+   - O jogador precisa controlar o personagem de forma responsiva
+   - O controle pode ser por teclado, e opcionalmente mouse
+   - Os desafios devem surgir dinamicamente
+   - O jogo deve ter ritmo crescente
+
+3. Sistema de pontuação mais interessante
+   - Exibir score em tempo real
+   - Exibir tempo de sobrevivência
+   - Exibir melhor pontuação
+   - Criar sistema de combo, streak ou multiplicador quando fizer sentido
+
+4. Progressão de dificuldade real
+   - O jogo deve ficar progressivamente mais difícil
+   - Aumentar velocidade, frequência, quantidade ou complexidade dos obstáculos
+   - O crescimento da dificuldade precisa ser perceptível
+
+5. Feedback visual forte
+   - Efeitos de impacto ao colidir
+   - Pequenas animações nos elementos
+   - HUD clara
+   - Destaque visual quando a pontuação aumenta
+   - Destaque visual ao entrar em game over
+
+6. Game over completo
+   - Mostrar score final
+   - Mostrar melhor score
+   - Mostrar botão de reinício
+   - Mostrar opção de voltar para tela inicial, se possível
+
+7. Reinício confiável
+   - Ao reiniciar, o estado precisa voltar limpo
+   - Não deve duplicar eventos
+   - Não deve quebrar o loop
+   - O jogo deve reiniciar corretamente sempre
+
+8. Elementos extras para enriquecer o projeto
+   - Efeito de partículas simples
+   - Trilhas visuais ou glow via CSS
+   - Power-up simples, se couber
+   - Sistema de pausa opcional
+   - Pequeno efeito de tela tremendo ou flash no impacto, se viável sem exagero
+
+Requisitos visuais obrigatórios:
+- Visual moderno e marcante
+- Estética neon, arcade ou futurista
+- Boa composição visual
+- Contraste forte
+- HUD bem desenhada
+- Botões bem estilizados
+- Fundo interessante
+- Animações leves e coerentes
+- O projeto precisa ficar bonito em vídeo
+- Não quero aparência de exercício básico de JavaScript
+
+Requisitos técnicos:
+- Separar corretamente HTML, CSS e JS
+- Organizar o JavaScript em partes claras
+- Criar funções separadas para:
+  - inicialização
+  - input
+  - loop do jogo
+  - spawn de obstáculos
+  - atualização de score
+  - colisões
+  - game over
+  - reinício
+- Usar nomes claros
+- Evitar concentrar toda a lógica em um bloco único
+- Garantir que o jogo seja funcional ao abrir no navegador
+
+Requisitos de qualidade:
+- Não entregar um protótipo incompleto
+- O jogo precisa ter começo, progressão e fim
+- A experiência precisa ser coerente
+- O visual precisa parecer pensado
+- A jogabilidade precisa ser minimamente divertida
+- O resultado final deve parecer um projeto apresentável em vídeo
+
+Fluxo de execução esperado:
+1. Antes de implementar, descreva rapidamente a ideia final do jogo, as mecânicas e a estrutura dos arquivos
+2. Depois, crie todos os arquivos do projeto
+3. Implemente o jogo completo
+4. Revise o comportamento do loop, colisões e reinício
+5. Corrija inconsistências antes de encerrar
+6. Ao final, entregue um resumo objetivo do que foi criado
+
+Importante:
+- Não quero apenas uma ideia conceitual
+- Não quero trechos soltos
+- Quero o projeto funcional de verdade
+- Quero algo visualmente chamativo
+- Quero algo que fique interessante para mostrar em vídeo
+- Se algo estiver inconsistente, corrija antes de finalizar
+- Trabalhe diretamente nos arquivos do workspace
