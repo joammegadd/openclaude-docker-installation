@@ -1,1 +1,104 @@
 
+Quero que você atue como um desenvolvedor front-end sênior e crie um projeto completo de uma landing page profissional para um programador full stack.
+
+Objetivo do projeto:
+Construir uma landing page moderna, responsiva, visualmente premium e com aparência comercial real, como se fosse a página institucional de um profissional que oferece serviços de desenvolvimento de software para empresas.
+
+Contexto:
+Essa página deve transmitir profissionalismo, clareza, sofisticação visual e confiança técnica. O resultado não deve parecer um exercício básico, e sim uma página pronta para ser apresentada em portfólio.
+
+Tecnologias obrigatórias:
+- HTML
+- CSS
+- JavaScript puro
+- Sem frameworks
+- Sem bibliotecas externas
+
+Estrutura obrigatória de arquivos:
+- index.html
+- styles.css
+- script.js
+
+Requisitos de conteúdo:
+A página deve conter obrigatoriamente as seguintes seções:
+1. Hero principal
+   - Headline forte
+   - Subheadline clara
+   - Botões de chamada para ação
+   - Destaque visual principal
+
+2. Sobre o profissional
+   - Texto explicando perfil, especialidades e diferenciais
+   - Linguagem profissional e realista
+
+3. Serviços
+   - Apresentar pelo menos 4 serviços
+   - Cada serviço com título, descrição curta e ícone visual simples usando HTML/CSS se necessário
+
+4. Tecnologias
+   - Mostrar stack principal
+   - Exemplo: React, Node.js, TypeScript, Docker, PostgreSQL, Firebase, etc.
+
+5. Projetos
+   - Exibir pelo menos 3 projetos fictícios
+   - Cada projeto deve conter nome, descrição, categoria e resultado gerado
+
+6. Depoimentos
+   - Criar pelo menos 3 depoimentos fictícios plausíveis
+   - Mostrar nome, cargo e comentário
+
+7. CTA final
+   - Um bloco forte incentivando contato
+
+8. Rodapé
+   - Informações de contato
+   - Links simulados
+   - Copyright
+
+Requisitos visuais:
+- Layout moderno e elegante
+- Visual premium
+- Boa hierarquia tipográfica
+- Espaçamento consistente
+- Responsivo para desktop, tablet e mobile
+- Botões com hover
+- Cards com hover
+- Animações leves e sutis
+- Paleta de cores coerente
+- Não usar um visual genérico demais
+- Evitar aparência de template muito simples
+
+Requisitos de UX:
+- Navegação clara
+- Scroll suave
+- Botões que levem para seções da página
+- Header organizado
+- Experiência agradável tanto em telas grandes quanto pequenas
+
+Requisitos técnicos:
+- Separar corretamente estrutura, estilo e comportamento
+- HTML semântico
+- CSS bem organizado
+- JavaScript usado para interações leves, como:
+  - menu mobile
+  - scroll suave
+  - animações simples ao rolar
+- Código legível
+- Nomes de classes e funções claros
+- Não concentrar tudo em um bloco confuso
+
+Fluxo de execução esperado:
+1. Primeiro, analise a tarefa e descreva brevemente o plano de implementação
+2. Depois, crie todos os arquivos necessários
+3. Implemente a landing page completa
+4. Revise se os arquivos estão consistentes entre si
+5. Verifique se nenhum arquivo ficou incompleto
+6. Faça uma checagem final resumindo o que foi criado
+
+Importante:
+- Não quero apenas uma explicação
+- Quero a criação real dos arquivos
+- Não entregue um exemplo minimalista
+- Não deixe textos genéricos demais
+- Não omita partes pedidas
+- O resultado precisa ser funcional e visualmente convincente
